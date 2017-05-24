@@ -13,6 +13,7 @@ parts:
     # See 'snapcraft plugins'
     plugin: cmake
     stage-packages:
+      - build-essential
       - libcurl4-gnutls-dev
 
 apps:
