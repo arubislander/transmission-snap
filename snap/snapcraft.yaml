@@ -14,6 +14,7 @@ parts:
     plugin: cmake
     stage-packages:
       - build-essential
+      - libssl-dev
       - libcurl4-gnutls-dev
 
 apps:
